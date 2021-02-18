@@ -1,0 +1,45 @@
+# Plan-Yapma-AndroidApp
+
+## PlanMaker Açılış Ekranı
+![Giris Ekranı](/ReadMe-Images/girisVeKayit.png)
+
+Bu sayfadan uygulamaya kayıt olabilir veya kayıt olduysanız giriş yapabilirsiniz.
+
+## Ana Sayfa
+![Ana Sayfa](/ReadMe-Images/davetListesi.jpeg)
+
+Uygulamaya giriş yaptıktan sonra bu sayfa ile karşılaşacaksınız ve oluşturduğunuz ve davet edildiğiniz etkinlikleri görüntüleyebilir ve katılım durumunuz hakkında bilgi verebilirsiniz.
+
+## Drawer
+![Drawer](/ReadMe-Images/drawer.jpeg)
+
+Uygulamayı açtığınızda drawerdaki etkinliklerin sayfasından başlarsınız ve diğer sekmelere geçmek veya geri dönmek için bu draweri kullanabilirsiniz en üstte kayıt oldugunuz maili ve kullanici adinizi göreceksiniz.
+
+## Arkadaş Listesi
+![Arkadaş Listesi](/ReadMe-Images/arkadasListesi.jpeg)
+
+Drawer'i kullanarak arkadaş listenizi görüntüleyebilir ve listeden arkadaş çıkarma işlemi yapabilirsiniz.
+
+## Arkadaş Ekleme
+![Arkadaş Ekle](/ReadMe-Images/arkadasEkleme.jpeg)
+
+Drawer'i kullanarak arkadaş ekleme sayfasına gidip arama çubuğuna eklemek istediğiniz kişinin kullanici adini girerek arkadaşlık isteği yollayabilirsiniz ve arkadaşlık isteği attığınız kişi kabul ederse arkadaş listenizde görünecektir.
+
+## Etkinlik oluşturma
+![Etkinlik oluşturma](/ReadMe-Images/etkinlikOlusturma.jpeg)
+
+Drawer'i kullanarak etkinlik oluşturma sayfasına gidip etkinlik bilgilerini doldurduktan sonra arkadaşlarınızı davet edebilirsiniz.
+
+## Arkadaşları davet etme
+![Davet Etme](/ReadMe-Images/arkadasDavet.jpeg)
+
+Etkinlik oluşturma sayfasından arkadaşları davet etme sayfasına geçtikten sonra arkadaş listenden etkinliğe davet etmek istediğin kullanicilari davet ettikten sonra işlemi tamamlayabilirsin.
+
+## Davet durumlarini görüntüleme
+![Davet Durumlarını görüntüleme](/ReadMe-Images/etkinlikDurumu.jpeg)
+
+Yeni bir davet oluşturup arkadaşlarını davet ettikten sonra veya davet edildiğin etkinlikleri görüntülediğin etkinliklerin sekmesinden davetlilerin durumlarını görüntüleyebilirsin ve durumunu guncelleyerek arkadaşlarınla durumunu paylaşabilirsin.
+
+
+
+
