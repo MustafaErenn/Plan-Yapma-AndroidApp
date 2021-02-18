@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648661253707",
+    "project_id": "planmaker-5602d",
+    "storage_bucket": "planmaker-5602d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648661253707:android:9993ddbd530fd76843d7ce",
+        "android_client_info": {
+          "package_name": "com.mustafaeren.planmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648661253707-9uhhvus86l0k4fn9ndqh9unfok9vhv48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFP1d_C-ODNFnWv0m6dye2l3_6d1gIMak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648661253707-9uhhvus86l0k4fn9ndqh9unfok9vhv48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

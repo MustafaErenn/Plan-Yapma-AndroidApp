@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_signup"
+    tools:context=".MakeEventActivity">
+
+    <EditText
+        android:id="@+id/eventNameEditText"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/firewatch"
+        android:gravity="center"
+        android:hint="Etkinlik Adını Gir..."
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/eventAciklamaEditText"
+        android:layout_width="381dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/mauve"
+        android:ems="10"
+        android:gravity="clip_vertical"
+        android:hint="Açıklamanı buraya gir..."
+        android:inputType="textMultiLine"
+        android:paddingLeft="15dp"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventNameEditText" />
+
+    <TextView
+        android:id="@+id/eventDateEditText"
+        android:layout_width="381dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/mauve"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Tarih"
+        android:inputType="textMultiLine"
+        android:paddingLeft="15dp"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventAciklamaEditText" />
+
+    <TextView
+        android:id="@+id/eventTimeEditText"
+        android:layout_width="381dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/mauve"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Saat"
+        android:inputType="textMultiLine"
+        android:paddingLeft="15dp"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventDateEditText" />
+
+    <Button
+        android:id="@+id/saatButonu"
+        android:layout_width="166dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="Saati belirle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventTimeEditText" />
+
+
+    <Button
+        android:id="@+id/tarihButonu"
+        android:layout_width="166dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Tarih Belirle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventTimeEditText" />
+
+    <Button
+        android:id="@+id/davetButonu"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="64dp"
+        android:text="Arkadaşlarını davet et"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saatButonu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

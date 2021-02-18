@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_friends"
+            android:title="Arkadaş Listen" />
+
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event"
+            android:title="Etkinliklerin" />
+
+    </group>
+
+    <item android:title="Ekle">
+        <menu >
+            <item android:id="@+id/nav_addFriends"
+                android:icon="@drawable/ic_add_friend"
+                android:title="Arkadaş Ekle"/>
+            <item android:id="@+id/nav_makeEvent"
+                android:icon="@drawable/ic_make_event"
+                android:title="Etkinlik Oluştur "/>
+        </menu>
+    </item>
+
+    <item android:title="Çıkış Yap">
+        <menu >
+            <item
+                android:id="@+id/nav_out"
+                android:icon="@drawable/ic_out"
+                android:title="Çıkış Yap" />
+
+        </menu>
+    </item>
+</menu>

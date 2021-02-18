@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="firewatch">#3a7bd5</color>
+    <color name="DiscoUp">#4ecdc4</color>
+    <color name="DiscoDown">#556270</color>
+    <color name="Fusion">#333399</color>
+    <color name="Couple">#89253e</color>
+    <color name="mauve">#734b6d</color>
+    <color name="royal1">#141E30</color>
+</resources>
