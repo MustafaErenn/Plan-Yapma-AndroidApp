@@ -40,6 +40,7 @@ Etkinlik oluşturma sayfasından arkadaşları davet etme sayfasına geçtikten 
 
 Yeni bir davet oluşturup arkadaşlarını davet ettikten sonra veya davet edildiğin etkinlikleri görüntülediğin etkinliklerin sekmesinden davetlilerin durumlarını görüntüleyebilirsin ve durumunu guncelleyerek arkadaşlarınla durumunu paylaşabilirsin.
 
+![Davet Durumlarını görüntüleme](/ReadMe-Images/deneme.png)
 
 
 
